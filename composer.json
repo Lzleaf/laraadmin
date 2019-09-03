@@ -1,0 +1,22 @@
+{
+    "name": "leaf/laraadmin",
+    "description": "Laraadmin is a laravel package for can be generated fast backend management panel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "李昭",
+            "email": "leaf.li@showbrain.cn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Leaf\\Laraadmin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Leaf\\Laraadmin\\Tests\\": "tests/"
+        }
+    }
+}
